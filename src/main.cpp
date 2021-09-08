@@ -6,7 +6,7 @@
 int main(int argv, char** args){
     SDL_Init(SDL_INIT_EVERYTHING);
 
-    Window window("Unitled", 700, 700);
+    Window window("unitled", 700, 700);
 
     bool isRunning = true;
     SDL_Event event;
