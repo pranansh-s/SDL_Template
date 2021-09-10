@@ -31,8 +31,8 @@ int main(int argv, char** args){
                 //Register key events here ->
             }
             //Perform once per frame ->
+            accumulator -= timeStep;
         }
-        accumulator -= timeStep;
 
         window.clearRenderer();
         //Render content here ->
